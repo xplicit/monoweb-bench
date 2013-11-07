@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ssbench", "ssbench2\ssbench.csproj", "{528DE63E-3AF5-4737-8652-874B57C090D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{DB4706C9-FF39-4F8B-B4C5-D8942F597C51}"
+	ProjectSection(SolutionItems) = preProject
+		lib\ServiceStack.Text.dll = lib\ServiceStack.Text.dll
+		lib\ServiceStack.ServiceInterface.dll = lib\ServiceStack.ServiceInterface.dll
+		lib\ServiceStack.Redis.dll = lib\ServiceStack.Redis.dll
+		lib\ServiceStack.Logging.Log4Net.dll = lib\ServiceStack.Logging.Log4Net.dll
+		lib\ServiceStack.Interfaces.dll = lib\ServiceStack.Interfaces.dll
+		lib\ServiceStack.dll = lib\ServiceStack.dll
+		lib\ServiceStack.Common.dll = lib\ServiceStack.Common.dll
+		lib\log4net.dll = lib\log4net.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webbench", "ssbench3\webbench.csproj", "{54D1B201-3C76-4D9C-8063-2A4FBE1854CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{528DE63E-3AF5-4737-8652-874B57C090D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{528DE63E-3AF5-4737-8652-874B57C090D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{528DE63E-3AF5-4737-8652-874B57C090D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{528DE63E-3AF5-4737-8652-874B57C090D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54D1B201-3C76-4D9C-8063-2A4FBE1854CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54D1B201-3C76-4D9C-8063-2A4FBE1854CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54D1B201-3C76-4D9C-8063-2A4FBE1854CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54D1B201-3C76-4D9C-8063-2A4FBE1854CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = ssbench2\ssbench.csproj
+	EndGlobalSection
+EndGlobal
